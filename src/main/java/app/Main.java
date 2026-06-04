@@ -11,10 +11,7 @@ public class Main {
 
 		//System.out.println(reg.isMatch(".*bc*b", "ccccccaabb"));
 		
-		RegExp1 sol = new RegExp1();
-		
-		System.out.println(sol.isMatch("a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*b",
-		        "aaaaaaaaaaaaaaaaaaaaac"));
-	}	
-	
+		System.out.println(reg.isMatch(".*a.*a.*a.*a.*a.*a.*a.*a.*a.*b",
+	                    "aaaaaaaaaaaaaaaaaaaaaaaaaac"));
+	}
 }
